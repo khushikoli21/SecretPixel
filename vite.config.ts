@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/SecretPixel/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
